@@ -13,18 +13,54 @@ public class Cloop{
         // System.out.println(salary);
 
         //Print the maximum of 3 numbers
-        Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
+        // Scanner in = new Scanner(System.in);
+        // int a = in.nextInt();
+        // int b = in.nextInt();
+        // int c = in.nextInt();
 
-        int max = a;
-        if(b > max){
-            max = b;
+        // int max = a;
+        // if(b > max){
+        //     max = b;
+        // }
+        // if(c > max){
+        //     max = c;
+        // }
+        // System.out.print(max);
+
+        //Uppercase/Lowercase
+        // Scanner ob = new Scanner(System.in);
+        // char ch = ob.next().trim().charAt(0);
+        // if(ch >= 'a' && ch >= 'z'){
+        //     System.out.println("Lowercase");
+        // } else{
+        //     System.out.println("Uppercase");
+        // }
+
+        //Print the fibonacci no.
+        // Scanner in = new Scanner(System.in);
+        // int n = in.nextInt();
+        // int a = 0;
+        // int b = 1;
+        // int count = 2;
+        // while(count <= n){
+        //     int temp = b;
+        //     b = b + a;
+        //     a = temp;
+        //     count++;
+        // }
+        // System.out.print(b);
+
+        //Count the no. of 3s
+        int n = 2453738;
+        int count = 0;
+        while(n > 0){
+            int rem = n % 10;
+            if(rem == 3){
+                count++;
+            } 
+            n = n / 10;
+
         }
-        if(c > max){
-            max = c;
-        }
-        System.out.print(max);
+        System.out.print(count);
     }
 }
