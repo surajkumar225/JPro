@@ -26,7 +26,8 @@ public class SwitchNest{
                 System.out.println("Townmaster");            
                 break;
             }
-            break;      
+            break;
+                  
         default:
             System.out.println("Avengers assemble!");            
        }

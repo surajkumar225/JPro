@@ -51,16 +51,28 @@ public class Cloop{
         // System.out.print(b);
 
         //Count the no. of 3s
-        int n = 2453738;
-        int count = 0;
-        while(n > 0){
-            int rem = n % 10;
-            if(rem == 3){
-                count++;
-            } 
-            n = n / 10;
+        // int n = 2453738;
+        // int count = 0;
+        // while(n > 0){
+        //     int rem = n % 10;
+        //     if(rem == 3){
+        //         count++;
+        //     } 
+        //     n = n / 10;
 
+        // }
+        // System.out.print(count);
+
+        //Print the reverse of a number
+        int num = 123456;
+        int ans = 0;
+        while(num > 0){
+            int rem = num % 10;
+            num /= 10;
+
+            ans = ans * 10 + rem;
         }
-        System.out.print(count);
+        System.out.print(ans);
+        
     }
 }

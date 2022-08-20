@@ -33,7 +33,11 @@ public class Input{
         count++;
     }
 
+    //For loop
+    for(int count= 1; count !=5; count++){
+        System.out.print(count);
+    }
 
-
+    
     }
 }
