@@ -8,9 +8,25 @@ public class Function{
         // String check = myGreet("Dawson");
         // System.out.print(check);
 
-        int[] arr = {1, 2, 5, 9, 21};
-        change(arr);
-        System.out.println(Arrays.toString(arr));
+        // int[] arr = {1, 2, 5, 9, 21};
+        // change(arr);
+        // System.out.println(Arrays.toString(arr));
+
+        int a = 100;
+        int b = 200;
+        String name = "Surk";
+        {
+            a = 300;
+            System.out.println(a);
+            int c = 400;
+            name = "Daw";
+            System.out.println(name);
+
+        }
+            System.out.println(a);
+            System.out.println(name);
+
+
 
        
     }
@@ -23,7 +39,6 @@ public class Function{
     //     String message = "Hey " + name;
     //     return message;
 
-    static void change(int[] num){
-        num[0] = 77;
+    // static void change(int[] nums){
+    //     nums[0] = 77;
     }
-}
