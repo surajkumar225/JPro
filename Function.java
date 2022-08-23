@@ -12,11 +12,13 @@ public class Function{
         // change(arr);
         // System.out.println(Arrays.toString(arr));
 
-        int a = 100;
+
+        //Scope
+        int a = 100;  //Initializing
         int b = 200;
         String name = "Surk";
         {
-            a = 300;
+            a = 300;  //Updating
             System.out.println(a);
             int c = 400;
             name = "Daw";
@@ -25,10 +27,7 @@ public class Function{
         }
             System.out.println(a);
             System.out.println(name);
-
-
-
-       
+      
     }
     // static int sum(int a , int b){
     //         int sum = a + b;
