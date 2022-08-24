@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Array{
     public static void main(String[] arg){
@@ -30,11 +31,11 @@ public class Array{
         for(int i = 0; i< str.length; i++){
             str[i] = in.next();
         }
-        System.out.println(Array.toString(str));
+        System.out.println(Arrays.toString(str));
 
         //Modify
         str[1]= "Surk";
-        System.out.println(Array.toString(str));
+        System.out.println(Arrays.toString(str));
 
 
     }
