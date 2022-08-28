@@ -16,7 +16,10 @@ public class ArrayListtt{
         list.add(4902);
         list.add(65);
 
-        System.out.println(list.contains(765432));
+        System.out.println(list.contains(76543210));
         System.out.println(list);
+
+
+
     }
 }
