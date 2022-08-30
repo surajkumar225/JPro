@@ -18,5 +18,8 @@ public class ArrayListtt{
 
         System.out.println(list.contains(76543210));
         System.out.println(list);
+        
+        list.set(0, 99);
+        System.out.println(list);
     }
 }
