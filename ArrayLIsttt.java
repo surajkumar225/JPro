@@ -32,6 +32,4 @@ public class ArrayListtt{
         }
         System.out.println(list);
     }
-
-    
 }
