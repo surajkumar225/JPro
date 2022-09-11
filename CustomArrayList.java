@@ -72,10 +72,5 @@ public class CustomArrayList {
 
         ArrayList<Integer> list2 = new ArrayList<>();
     //    list2.add("dfghj");
-
-
-
-
-    
     }
 }
