@@ -87,5 +87,7 @@ public class WildCard<T extends Number> {
 
         System.out.println(list3);
 
+        
+
     }
 }
