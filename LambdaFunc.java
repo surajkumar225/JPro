@@ -24,6 +24,10 @@ public class LambdaFunc{
 
     private int operate(int a, int b, Operation op) {
         return op.operation(a, b);
+
+
+
+        
     }
 }
 
