@@ -85,6 +85,10 @@ public class WildCard<T extends Number> {
             list3.add(2 * i);
         }
 
+
+
+        
+
         System.out.println(list3);
 
         
