@@ -84,11 +84,6 @@ public class WildCard<T extends Number> {
         for (int i = 0; i < 14; i++) {
             list3.add(2 * i);
         }
-
-
-
-        
-
         System.out.println(list3);
 
         
